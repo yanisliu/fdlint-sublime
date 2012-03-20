@@ -1,0 +1,13 @@
+{
+    "cmd": [
+        "${packages}/fdlint sublime/core/bin/fdlint",
+        "$file"
+    ],
+    "windows": {
+        "cmd": [
+            "${packages}\\fdlint sublime\\core\\bin\\fdlint",
+            "$file"
+        ]
+    },
+    "selector": "source.html, source.js, source.css"
+}
