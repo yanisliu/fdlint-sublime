@@ -1,11 +1,11 @@
 {
     "cmd": [
-        "${packages}/fdlint sublime/core/bin/fdlint",
+        "${packages}/fdlint-sublime/core/bin/fdlint",
         "$file"
     ],
     "windows": {
         "cmd": [
-            "${packages}\\fdlint sublime\\core\\bin\\fdlint",
+            "${packages}\\fdlint-sublime\\core\\bin\\fdlint",
             "$file"
         ]
     },
